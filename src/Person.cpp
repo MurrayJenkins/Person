@@ -1,15 +1,19 @@
-//============================================================================
-// Name        : Person.cpp
-// Author      : 
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
-//============================================================================
+/*
+ * Person.cpp
+ *
+ *  Created on: Dec 14, 2020
+ *      Author: Matthew
+ */
 
-#include <iostream>
-using namespace std;
+#include "Person.hpp"
 
-int main() {
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
-	return 0;
+Person::Person(std::string n)
+{
+	name = n;
 }
+
+Person::~Person()
+{
+
+}
+

@@ -13,8 +13,18 @@ using namespace std;
 int main()
 {
 	Person matt("Matthew Alan Pitts");
+	Person sarah("Sarah Gene Willoughby");
 
-	cout << matt.getName();
+	string husband = matt.getName();
+	string wifeMaiden = sarah.getName();
+
+	cout << husband << " met " << wifeMaiden << " at USAO. " << endl << "When they got married, "
+			<< wifeMaiden << " changed her name to ";
+
+	sarah.setName("Sarah Gene Pitts");
+	string wife = sarah.getName();
+
+	cout << wife << ".";
 
 	return 0;
 }

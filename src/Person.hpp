@@ -17,9 +17,16 @@ class Person
 		Person(std::string name);
 		virtual ~Person();
 
+		//getters
 		std::string getName()
 		{
 			return name;
+		}
+
+		//setter
+		void setName(std::string newName)
+		{
+			name = newName;
 		}
 };
 

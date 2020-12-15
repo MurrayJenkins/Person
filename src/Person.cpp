@@ -7,13 +7,12 @@
 
 #include "Person.hpp"
 
-Person::Person(std::string n)
+Person::Person(std::string n):name(n)
 {
-	name = n;
+
 }
 
 Person::~Person()
 {
 
 }
-

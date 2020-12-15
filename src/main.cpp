@@ -26,7 +26,7 @@ int main()
 	string wife = sarah.getName();
 	cout << wife << "." << endl;
 
-
+	// this adds a vector of people, and prints them out.
 	std::vector<Person*> individual;
 	individual.push_back(&matt);
 	individual.push_back(&sarah);

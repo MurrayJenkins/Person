@@ -1,9 +1,9 @@
 //============================================================================
 // Name        : Person.cpp
-// Author      : 
+// Author      : Matthew Alan Pitts
 // Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Copyright   :
+// Description :
 //============================================================================
 
 #include <iostream>

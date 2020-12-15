@@ -7,6 +7,7 @@
 //============================================================================
 
 #include <iostream>
+#include <vector>
 #include "Person.hpp"
 using namespace std;
 
@@ -23,8 +24,17 @@ int main()
 
 	sarah.setName("Sarah Gene Pitts");
 	string wife = sarah.getName();
+	cout << wife << "." << endl;
 
-	cout << wife << ".";
+
+	std::vector<Person*> individual;
+	individual.push_back(&matt);
+	individual.push_back(&sarah);
+	cout << endl << "List of people:" << endl;
+	for (auto i : individual)
+	{
+		i->getInfo();
+	}
 
 	return 0;
 }

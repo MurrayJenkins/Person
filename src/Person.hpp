@@ -28,6 +28,12 @@ class Person
 		{
 			name = newName;
 		}
+
+		//other
+		void getInfo()
+		{
+			std::cout << name << std::endl;
+		}
 };
 
 #endif /* PERSON_HPP_ */
